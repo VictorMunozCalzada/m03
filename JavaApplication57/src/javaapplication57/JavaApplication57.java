@@ -31,7 +31,7 @@ public class JavaApplication57 {
     private static char calcularLetra(int dni) {
     int residuo;
     residuo=dni%23;
-    char letra='&';
+    char letra='*';
     switch(residuo){
         case 0: letra='T';
             break;
